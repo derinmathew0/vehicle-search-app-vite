@@ -1,0 +1,1 @@
+export function isValidUSZip(zip: string): boolean { return /^[0-9]{5}$/.test(zip.trim()); }
